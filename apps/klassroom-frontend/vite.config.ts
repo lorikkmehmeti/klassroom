@@ -7,7 +7,7 @@ export default defineConfig({
   cacheDir: '../../node_modules/.vite/klassroom-frontend',
 
   server: {
-    port: 4200,
+    port: 5000,
     host: 'localhost',
   },
 
