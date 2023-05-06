@@ -13,7 +13,7 @@ export const ButtonStyles = style({
   fontFamily: 'General Sans, sans-serif',
   fontWeight: 500,
   border: 'none',
-  padding: "8px 12px",
+  padding: '8px 12px',
   textAlign: 'center',
   fontSize: '14px',
   lineHeight: '1rem',
