@@ -2,7 +2,13 @@
   "name": "klassroom",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start:frontend": "nx serve klassroom-frontend",
+    "start:backend": "nx serve klassroom-api",
+    "format:frontend": "prettier --write apps/klassroom-frontend/src/**/*.{js,jsx,ts,tsx,json,md}",
+    "format:backend": "prettier --write apps/klassroom-api/src/**/*.{js,jsx,ts,tsx,json,md}",
+    "format:all": "prettier --write apps/**/*.{ts,tsx,js,jsx,json,html,md}"
+},
   "private": true,
   "dependencies": {
     "@swc/helpers": "~0.5.0",
