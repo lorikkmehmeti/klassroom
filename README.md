@@ -29,8 +29,6 @@ This will compile the React project and start the server on `http://localhost:50
 
 This will compile the Node/Express project and start the server on `http://localhost:3000`. You can then open your web browser and navigate to that URL to use the assessment tool.
 
-`yarn start`
-
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
