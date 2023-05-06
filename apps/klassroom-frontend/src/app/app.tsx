@@ -1,5 +1,6 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { Route, Routes, Link } from 'react-router-dom';
+import { ButtonStyles } from '../style.css';
 
 export function App() {
   return (
@@ -10,6 +11,7 @@ export function App() {
           element={
             <div>
               This is the generated root route.{' '}
+              <button className={ButtonStyles}>Start your assessment</button>
               <Link to="/page-2">Click here for page 2.</Link>
             </div>
           }

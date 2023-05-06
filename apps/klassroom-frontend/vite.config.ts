@@ -2,6 +2,7 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import viteTsConfigPaths from 'vite-tsconfig-paths';
+import { vanillaExtractPlugin } from '@vanilla-extract/vite-plugin';
 
 export default defineConfig({
   cacheDir: '../../node_modules/.vite/klassroom-frontend',
@@ -18,6 +19,7 @@ export default defineConfig({
 
   plugins: [
     react(),
+    vanillaExtractPlugin(),
     viteTsConfigPaths({
       root: '../../',
     }),
