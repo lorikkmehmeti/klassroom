@@ -18,9 +18,16 @@ To install the project dependencies, run the following command from the root dir
 
 ## Usage
 
-To start the development server for the assessment tool, run the following command:
+To start the apps run the following commands:
 
-This will compile the project and start the server on `http://localhost:4200`. You can then open your web browser and navigate to that URL to use the assessment tool.
+`yarn start:frontend` for React App
+
+This will compile the React project and start the server on `http://localhost:5000`. You can then open your web browser and navigate to that URL to use the assessment tool.
+
+
+`yarn start:backend` for Node App
+
+This will compile the Node/Express project and start the server on `http://localhost:3000`. You can then open your web browser and navigate to that URL to use the assessment tool.
 
 `yarn start`
 
