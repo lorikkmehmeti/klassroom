@@ -10,11 +10,11 @@
     "format:all": "prettier --write apps/**/*.{ts,tsx,js,jsx,json,html,md}",
     "lint:frontend": "nx lint klassroom-frontend",
     "lint:backend": "nx lint klassroom-api",
-    "precommit": "yarn format:all && git add ."
+    "precommit": "yarn run format:all && git add ."
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn precommit"
+      "pre-commit": "yarn run precommit"
     }
   },
   "private": true,
